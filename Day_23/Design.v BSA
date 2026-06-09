@@ -1,0 +1,26 @@
+// 4-bit Binary select adder
+module carry_select_adder(
+    input  [3:0] a,
+    input  [3:0] b,
+    input  cin,
+    output reg [3:0] sum,
+    output reg cout
+);
+reg [3:0] sum0, sum1;
+reg c0, c1;
+always @(*) begin
+    {c0, sum0} = a + b + 0;
+
+    {c1, sum1} = a + b + 1;
+
+    if(cin == 0) begin
+        sum  = sum0;
+        cout = c0;
+    end
+    else begin
+        sum  = sum1;
+        cout = c1;
+    end
+end
+
+endmodule
