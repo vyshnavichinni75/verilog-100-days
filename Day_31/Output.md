@@ -9,4 +9,4 @@ Console Output:
 
 
 Waveform Output:
-<img width="216" height="237" alt="Screenshot 2026-06-16 180528" src="https://github.com/user-attachments/assets/e04808fa-95dd-4e2d-b04d-ec7476940003" />
+<img width="1857" height="190" alt="Screenshot 2026-08-14 193735" src="https://github.com/user-attachments/assets/a96e778f-3616-43d6-898e-13bb4795ac0c" />
